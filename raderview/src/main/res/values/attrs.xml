@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--RadarView start-->
+    <declare-styleable name="RadarView">
+
+        <attr name="branchColor" format="color"></attr>
+        <attr name="borderColor" format="color"></attr>
+        <attr name="pointColor" format="color"></attr>
+        <attr name="contentColor" format="color"></attr>
+
+        <attr name="isShowBranch" format="boolean"></attr>
+        <attr name="isShowBorder" format="boolean"></attr>
+        <attr name="isShowPoint" format="boolean"></attr>
+
+        <attr name="max" format="float"></attr>
+        <attr name="borderCount" format="integer"></attr>
+        <attr name="shapeType" format="enum">
+            <enum name="HEXAGON" value="6"></enum>
+        </attr>
+
+    </declare-styleable>
+    <!--RadarView end-->
+
+</resources>
