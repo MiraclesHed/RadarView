@@ -21,6 +21,7 @@
         app:isShowBranch="true"
         app:isShowPoint="true"
         app:max="100"
+        app:pointColor="@android:color/holo_red_dark"
         app:shapeType="HEXAGON"
         />
 
