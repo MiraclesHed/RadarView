@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 import butterknife.InjectView;
 
 public class MainActivity extends AppCompatActivity {
-
+//
 
     @InjectView(R.id.radarView)
     RadarView mRadarView;
