@@ -59,13 +59,9 @@ public class RadarView extends View {
     }
 
     public RadarView(Context context, AttributeSet attrs, int defStyleAttr) {
-        this(context, attrs, defStyleAttr, 0);
-    }
-
-    public RadarView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-        super(context, attrs, defStyleAttr, defStyleRes);
+        super(context, attrs, defStyleAttr);
         this.setLayerType(View.LAYER_TYPE_SOFTWARE, null);
-        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.RadarView, defStyleAttr, defStyleRes);
+        TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.RadarView, defStyleAttr, 0);
         int indexCount = typedArray.getIndexCount();
         for (int i = 0; i < indexCount; i++) {
             int index = typedArray.getIndex(i);
